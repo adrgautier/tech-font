@@ -1,0 +1,799 @@
+@font-face {
+	font-family: 'tech-font';
+	src: url('../fonts/tech-font.eot?Hh8Vsl');
+	src: url('../fonts/tech-font.eot?Hh8Vsl#iefix') format('eot'),
+		url('../fonts/tech-font.ttf?Hh8Vsl') format('truetype'),
+		url('../fonts/tech-font.woff?Hh8Vsl') format('woff'),
+		url('../fonts/tech-font.woff2?Hh8Vsl') format('woff2'),    
+		url('../fonts/tech-font.svg?Hh8Vsl#tech-font') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.tf {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'tech-font' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;  
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+.tf-android:before {
+	content: "";
+}
+
+.tf-angularjs:before {
+	content: "";
+}
+
+.tf-appcelerator:before {
+	content: "";
+}
+
+.tf-apple:before {
+	content: "";
+}
+
+.tf-appstore:before {
+	content: "";
+}
+
+.tf-aptana:before {
+	content: "";
+}
+
+.tf-asterisk:before {
+	content: "";
+}
+
+.tf-atlassian:before {
+	content: "";
+}
+
+.tf-atom:before {
+	content: "";
+}
+
+.tf-aws:before {
+	content: "";
+}
+
+.tf-backbone:before {
+	content: "";
+}
+
+.tf-bing_small:before {
+	content: "";
+}
+
+.tf-bintray:before {
+	content: "";
+}
+
+.tf-bitbucket:before {
+	content: "";
+}
+
+.tf-blackberry:before {
+	content: "";
+}
+
+.tf-bootstrap:before {
+	content: "";
+}
+
+.tf-bower:before {
+	content: "";
+}
+
+.tf-brackets:before {
+	content: "";
+}
+
+.tf-bugsense:before {
+	content: "";
+}
+
+.tf-celluloid:before {
+	content: "";
+}
+
+.tf-chrome:before {
+	content: "";
+}
+
+.tf-cisco:before {
+	content: "";
+}
+
+.tf-clojure:before {
+	content: "";
+}
+
+.tf-clojure_alt:before {
+	content: "";
+}
+
+.tf-cloud9:before {
+	content: "";
+}
+
+.tf-coda:before {
+	content: "";
+}
+
+.tf-code:before {
+	content: "";
+}
+
+.tf-code_badge:before {
+	content: "";
+}
+
+.tf-codeigniter:before {
+	content: "";
+}
+
+.tf-codepen:before {
+	content: "";
+}
+
+.tf-codrops:before {
+	content: "";
+}
+
+.tf-coffeescript:before {
+	content: "";
+}
+
+.tf-compass:before {
+	content: "";
+}
+
+.tf-composer:before {
+	content: "";
+}
+
+.tf-creativecommons:before {
+	content: "";
+}
+
+.tf-creativecommons_badge:before {
+	content: "";
+}
+
+.tf-css3:before {
+	content: "";
+}
+
+.tf-css3_full:before {
+	content: "";
+}
+
+.tf-css_tricks:before {
+	content: "";
+}
+
+.tf-cssdeck:before {
+	content: "";
+}
+
+.tf-dart:before {
+	content: "";
+}
+
+.tf-database:before {
+	content: "";
+}
+
+.tf-debian:before {
+	content: "";
+}
+
+.tf-digital-ocean:before {
+	content: "";
+}
+
+.tf-django:before {
+	content: "";
+}
+
+.tf-dlang:before {
+	content: "";
+}
+
+.tf-docker:before {
+	content: "";
+}
+
+.tf-doctrine:before {
+	content: "";
+}
+
+.tf-dojo:before {
+	content: "";
+}
+
+.tf-dotnet:before {
+	content: "";
+}
+
+.tf-dreamweaver:before {
+	content: "";
+}
+
+.tf-dropbox:before {
+	content: "";
+}
+
+.tf-drupal:before {
+	content: "";
+}
+
+.tf-eclipse:before {
+	content: "";
+}
+
+.tf-ember:before {
+	content: "";
+}
+
+.tf-envato:before {
+	content: "";
+}
+
+.tf-erlang:before {
+	content: "";
+}
+
+.tf-extjs:before {
+	content: "";
+}
+
+.tf-firebase:before {
+	content: "";
+}
+
+.tf-firefox:before {
+	content: "";
+}
+
+.tf-fsharp:before {
+	content: "";
+}
+
+.tf-ghost:before {
+	content: "";
+}
+
+.tf-ghost_small:before {
+	content: "";
+}
+
+.tf-git:before {
+	content: "";
+}
+
+.tf-git_branch:before {
+	content: "";
+}
+
+.tf-git_commit:before {
+	content: "";
+}
+
+.tf-git_compare:before {
+	content: "";
+}
+
+.tf-git_merge:before {
+	content: "";
+}
+
+.tf-git_pull_request:before {
+	content: "";
+}
+
+.tf-github:before {
+	content: "";
+}
+
+.tf-github_alt:before {
+	content: "";
+}
+
+.tf-github_badge:before {
+	content: "";
+}
+
+.tf-github_full:before {
+	content: "";
+}
+
+.tf-gnu:before {
+	content: "";
+}
+
+.tf-go:before {
+	content: "";
+}
+
+.tf-google-cloud-platform:before {
+	content: "";
+}
+
+.tf-google_analytics:before {
+	content: "";
+}
+
+.tf-google_drive:before {
+	content: "";
+}
+
+.tf-grails:before {
+	content: "";
+}
+
+.tf-groovy:before {
+	content: "";
+}
+
+.tf-grunt:before {
+	content: "";
+}
+
+.tf-gulp:before {
+	content: "";
+}
+
+.tf-hackernews:before {
+	content: "";
+}
+
+.tf-haskell:before {
+	content: "";
+}
+
+.tf-heroku:before {
+	content: "";
+}
+
+.tf-html5:before {
+	content: "";
+}
+
+.tf-html5_3d_effects:before {
+	content: "";
+}
+
+.tf-html5_connectivity:before {
+	content: "";
+}
+
+.tf-html5_device_access:before {
+	content: "";
+}
+
+.tf-html5_multimedia:before {
+	content: "";
+}
+
+.tf-ie:before {
+	content: "";
+}
+
+.tf-illustrator:before {
+	content: "";
+}
+
+.tf-intellij:before {
+	content: "";
+}
+
+.tf-ionic:before {
+	content: "";
+}
+
+.tf-java:before {
+	content: "";
+}
+
+.tf-javascript:before {
+	content: "";
+}
+
+.tf-javascript_1:before {
+	content: "";
+}
+
+.tf-jekyll:before {
+	content: "";
+}
+
+.tf-jekyll_small:before {
+	content: "";
+}
+
+.tf-jenkins:before {
+	content: "";
+}
+
+.tf-jira:before {
+	content: "";
+}
+
+.tf-joomla:before {
+	content: "";
+}
+
+.tf-jquery:before {
+	content: "";
+}
+
+.tf-jquery_ui_logo:before {
+	content: "";
+}
+
+.tf-js_badge:before {
+	content: "";
+}
+
+.tf-komodo:before {
+	content: "";
+}
+
+.tf-krakenjs:before {
+	content: "";
+}
+
+.tf-krakenjs_badge:before {
+	content: "";
+}
+
+.tf-laravel:before {
+	content: "";
+}
+
+.tf-less:before {
+	content: "";
+}
+
+.tf-linux:before {
+	content: "";
+}
+
+.tf-magento:before {
+	content: "";
+}
+
+.tf-mailchimp:before {
+	content: "";
+}
+
+.tf-markdown:before {
+	content: "";
+}
+
+.tf-materializecss:before {
+	content: "";
+}
+
+.tf-meteor:before {
+	content: "";
+}
+
+.tf-meteorfull:before {
+	content: "";
+}
+
+.tf-mitlicence:before {
+	content: "";
+}
+
+.tf-modernizr:before {
+	content: "";
+}
+
+.tf-mongodb:before {
+	content: "";
+}
+
+.tf-mootools:before {
+	content: "";
+}
+
+.tf-mootools_badge:before {
+	content: "";
+}
+
+.tf-mozilla:before {
+	content: "";
+}
+
+.tf-msql_server:before {
+	content: "";
+}
+
+.tf-mysql:before {
+	content: "";
+}
+
+.tf-nancy:before {
+	content: "";
+}
+
+.tf-netbeans:before {
+	content: "";
+}
+
+.tf-netmagazine:before {
+	content: "";
+}
+
+.tf-nginx:before {
+	content: "";
+}
+
+.tf-nodejs:before {
+	content: "";
+}
+
+.tf-nodejs_small:before {
+	content: "";
+}
+
+.tf-npm:before {
+	content: "";
+}
+
+.tf-onedrive:before {
+	content: "";
+}
+
+.tf-openshift:before {
+	content: "";
+}
+
+.tf-opensource:before {
+	content: "";
+}
+
+.tf-opera:before {
+	content: "";
+}
+
+.tf-perl:before {
+	content: "";
+}
+
+.tf-phonegap:before {
+	content: "";
+}
+
+.tf-photoshop:before {
+	content: "";
+}
+
+.tf-php:before {
+	content: "";
+}
+
+.tf-postgresql:before {
+	content: "";
+}
+
+.tf-prolog:before {
+	content: "";
+}
+
+.tf-python:before {
+	content: "";
+}
+
+.tf-rackspace:before {
+	content: "";
+}
+
+.tf-raphael:before {
+	content: "";
+}
+
+.tf-rasberry_pi:before {
+	content: "";
+}
+
+.tf-react:before {
+	content: "";
+}
+
+.tf-redhat:before {
+	content: "";
+}
+
+.tf-redis:before {
+	content: "";
+}
+
+.tf-requirejs:before {
+	content: "";
+}
+
+.tf-responsive:before {
+	content: "";
+}
+
+.tf-ror:before {
+	content: "";
+}
+
+.tf-ruby:before {
+	content: "";
+}
+
+.tf-ruby_rough:before {
+	content: "";
+}
+
+.tf-rust:before {
+	content: "";
+}
+
+.tf-safari:before {
+	content: "";
+}
+
+.tf-sass:before {
+	content: "";
+}
+
+.tf-scala:before {
+	content: "";
+}
+
+.tf-scriptcs:before {
+	content: "";
+}
+
+.tf-scrum:before {
+	content: "";
+}
+
+.tf-senchatouch:before {
+	content: "";
+}
+
+.tf-sizzlejs:before {
+	content: "";
+}
+
+.tf-smashing_magazine:before {
+	content: "";
+}
+
+.tf-snap_svg:before {
+	content: "";
+}
+
+.tf-spark:before {
+	content: "";
+}
+
+.tf-sqllite:before {
+	content: "";
+}
+
+.tf-stackoverflow:before {
+	content: "";
+}
+
+.tf-streamline:before {
+	content: "";
+}
+
+.tf-stylus:before {
+	content: "";
+}
+
+.tf-sublime:before {
+	content: "";
+}
+
+.tf-swift:before {
+	content: "";
+}
+
+.tf-symfony:before {
+	content: "";
+}
+
+.tf-symfony_badge:before {
+	content: "";
+}
+
+.tf-techcrunch:before {
+	content: "";
+}
+
+.tf-terminal:before {
+	content: "";
+}
+
+.tf-terminal_badge:before {
+	content: "";
+}
+
+.tf-travis:before {
+	content: "";
+}
+
+.tf-trello:before {
+	content: "";
+}
+
+.tf-typo3:before {
+	content: "";
+}
+
+.tf-ubuntu:before {
+	content: "";
+}
+
+.tf-uikit:before {
+	content: "";
+}
+
+.tf-unity_small:before {
+	content: "";
+}
+
+.tf-vim:before {
+	content: "";
+}
+
+.tf-visualstudio:before {
+	content: "";
+}
+
+.tf-w3c:before {
+	content: "";
+}
+
+.tf-webplatform:before {
+	content: "";
+}
+
+.tf-windows:before {
+	content: "";
+}
+
+.tf-wordpress:before {
+	content: "";
+}
+
+.tf-yahoo:before {
+	content: "";
+}
+
+.tf-yahoo_small:before {
+	content: "";
+}
+
+.tf-yeoman:before {
+	content: "";
+}
+
+.tf-yii:before {
+	content: "";
+}
+
+.tf-zend:before {
+	content: "";
+}

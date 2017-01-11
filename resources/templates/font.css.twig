@@ -1,0 +1,32 @@
+@font-face {
+	font-family: '{{ fontName }}';
+	src: url('{{ fontPath }}{{ fontName }}.eot?{{ random }}');
+	src: url('{{ fontPath }}{{ fontName }}.eot?{{ random }}#iefix') format('eot'),
+		url('{{ fontPath }}{{ fontName }}.ttf?{{ random }}') format('truetype'),
+		url('{{ fontPath }}{{ fontName }}.woff?{{ random }}') format('woff'),
+		url('{{ fontPath }}{{ fontName }}.woff2?{{ random }}') format('woff2'),    
+		url('{{ fontPath }}{{ fontName }}.svg?{{ random }}#{{ fontName }}') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.{{ className }} {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: '{{ fontName }}' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;  
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+{% for glyph in glyphs %}
+.{{ className }}-{{ glyph.name }}:before {
+	content: "{{ glyph.unicode }}";
+}
+{% endfor %}

@@ -1,0 +1,3 @@
+[submodule "resources/icons"]
+	path = resources/icons
+	url = https://github.com/jupegarnica/dev-svg-icons.git
